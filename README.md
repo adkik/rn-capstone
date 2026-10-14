@@ -8,6 +8,14 @@ A small React Native capstone app built with Expo. First launch opens onboarding
 
 Install dependencies, then run `npx expo start` from the project folder and open the app in Expo Go or a simulator.
 
+## Project structure
+
+- `App.js` is the app entry point; `src/AppContent.js` loads and manages the saved profile.
+- `src/navigation/` defines the onboarding, home, and profile stack.
+- `src/screens/` contains the screen-level UI and interactions.
+- `src/components/` contains shared UI such as the header, form fields, hero, and notification controls.
+- `src/data/`, `src/constants/`, and `src/storage/` hold menu/profile defaults, theme values, and AsyncStorage helpers.
+
 ## Screens and wireframe
 
 See [WIREFRAME.md](./WIREFRAME.md) for the screen layouts this app follows.
